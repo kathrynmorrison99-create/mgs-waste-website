@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Meet the Team | MGS Waste</title>
+<meta name="description" content="Meet the local, owner-operated team behind MGS Waste." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Big+Shoulders+Display:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="icon" type="image/png" href="assets/images/mgs-waste-logo.png" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container site-header__row">
+    <a href="index.html" class="brand" aria-label="MGS Waste home">
+      <img src="assets/images/mgs-waste-logo.png" alt="MGS Waste" class="brand__logo" />
+    </a>
+
+    <nav class="main-nav" data-nav aria-label="Primary">
+      <ul class="main-nav__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="team.html" aria-current="page">Meet the Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="contact.html" class="btn btn-primary"><span>Get a Quote</span></a>
+      <button class="nav-toggle" data-nav-toggle aria-label="Toggle navigation" aria-expanded="false">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" style="padding-block: clamp(56px, 8vw, 96px);">
+    <div class="container" style="max-width: 760px; text-align:center; margin-inline:auto;">
+      <p class="eyebrow" style="justify-content:center;">Meet the Team</p>
+      <h1 class="hero__title" style="font-size: clamp(2.4rem, 5vw, 3.6rem);">The people behind the truck.</h1>
+      <p class="lede on-dark" style="margin-inline:auto;">
+        A local, owner-operated crew that shows up, does the work, and stands behind it.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="team-grid">
+        <article class="team-card reveal">
+          <img class="team-card__photo" src="assets/images/team/martin.jpg" alt="Martin Morrison" loading="lazy" />
+          <h3>Martin Morrison</h3>
+          <p class="team-card__role">Owner, Driver &amp; Equipment Operator</p>
+        </article>
+
+        <article class="team-card reveal">
+          <img class="team-card__photo" src="assets/images/team/gerald.jpg" alt="Gerald McDaniel" loading="lazy" />
+          <h3>Gerald McDaniel</h3>
+          <p class="team-card__role">Driver &amp; Equipment Operator</p>
+        </article>
+
+        <article class="team-card reveal">
+          <img class="team-card__photo" src="assets/images/team/chad.jpg" alt="Chad McDaniel" loading="lazy" />
+          <h3>Chad McDaniel</h3>
+          <p class="team-card__role">Driver &amp; Equipment Operator</p>
+        </article>
+
+        <article class="team-card reveal">
+          <img class="team-card__photo" src="assets/images/team/wendy.jpg" alt="Wendy Kluttz" loading="lazy" />
+          <h3>Wendy Kluttz</h3>
+          <p class="team-card__role">Office Manager</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--band">
+    <div class="container cta-band reveal">
+      <h2 class="on-dark">Want to work with us?</h2>
+      <p class="lede on-dark">Reach out and we'll get your project on the schedule.</p>
+      <a href="contact.html" class="btn btn-primary">Contact Us</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__row">
+    <p>&copy; <span data-year></span> MGS Waste, LLC &mdash; All rights reserved.</p>
+    <div class="site-footer__contact">
+      <a href="tel:17046395980">Phone: (704) 639-5980</a>
+      <span aria-hidden="true">&middot;</span>
+      <a href="mailto:wendy@mgswaste.com">wendy@mgswaste.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
